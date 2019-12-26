@@ -1,1 +1,1 @@
-Look in `dnSpy/dnSpy/bin/Release` for release build.
+Use VS to build compiled version or look in the release dir.
