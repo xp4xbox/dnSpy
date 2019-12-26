@@ -59,6 +59,24 @@ namespace dnSpy.BamlDecompiler.Properties {
                 resourceCulture = value;
             }
         }
+		
+		/// <summary>
+        ///   Looks up a localized string similar to All Files.
+        /// </summary>
+        public static string AllFiles {
+            get {
+                return ResourceManager.GetString("AllFiles", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to BAML File.
+        /// </summary>
+        public static string BAMLFile {
+            get {
+                return ResourceManager.GetString("BAMLFile", resourceCulture);
+            }
+        }
         
         /// <summary>
         ///   Looks up a localized string similar to BAML Decompiler.
@@ -147,6 +165,42 @@ namespace dnSpy.BamlDecompiler.Properties {
         public static string Plugin_ShortDescription {
             get {
                 return ResourceManager.GetString("Plugin_ShortDescription", resourceCulture);
+            }
+        }
+		
+		/// <summary>
+        ///   Looks up a localized string similar to _Save BAML....
+        /// </summary>
+        public static string SaveBAML {
+            get {
+                return ResourceManager.GetString("SaveBAML", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to _Save XAML....
+        /// </summary>
+        public static string SaveXAML {
+            get {
+                return ResourceManager.GetString("SaveXAML", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Saving....
+        /// </summary>
+        public static string Saving {
+            get {
+                return ResourceManager.GetString("Saving", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to XAML File.
+        /// </summary>
+        public static string XAMLFile {
+            get {
+                return ResourceManager.GetString("XAMLFile", resourceCulture);
             }
         }
     }

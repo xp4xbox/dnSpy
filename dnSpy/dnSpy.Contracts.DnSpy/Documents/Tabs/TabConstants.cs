@@ -56,6 +56,16 @@ namespace dnSpy.Contracts.Documents.Tabs {
 		/// Order of dnlib reference <see cref="IDocumentViewerToolTipProvider"/> instance
 		/// </summary>
 		public const double ORDER_DNLIBREFTOOLTIPCONTENTPROVIDER = double.MaxValue;
+		
+		/// <summary>
+		/// Order of default <see cref="ITabSaverProvider"/> instance
+		/// </summary>
+		public const double ORDER_DEFAULTTABSAVERPROVIDER = double.MaxValue;
+
+		/// <summary>
+		/// Order of baml <see cref="ITabSaverProvider"/> instance
+		/// </summary>
+		public const double ORDER_BAMLTABSAVERPROVIDER = 1000;
 
 		/// <summary>
 		/// Order of hex <see cref="ITabSaverProvider"/> instance
